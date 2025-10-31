@@ -27,6 +27,7 @@ with open(datajson_path) as data_file:
 def test_e2e(browserInvokation, test_item_list):
     driver = browserInvokation
     print("im kunj")
+    print("git testing")
 
     driver.get("https://rahulshettyacademy.com/loginpagePractise/")
     loginPage = LoginPage(driver)
